@@ -1,0 +1,21 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "My awesome project",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npx tsc && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keisuke Isono",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "electron": "^23.2.1",
+    "typescript": "^5.0.3"
+  },
+  "volta": {
+    "node": "18.15.0",
+    "npm": "9.6.3"
+  }
+}
